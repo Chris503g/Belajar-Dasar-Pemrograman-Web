@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- Header Section-->
+
+    <header>
+      <nav>
+        <ul>
+          <a class="logo">51uG Academy</a>
+          <li><a onclick="getHome()">Home</a></li>
+          <li><a onclick="getIntro()">Introduction</a></li>
+          <li><a onclick="getWork()">How does it work</a></li>
+          <li><a onclick="getInstrument()">About the instruments</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Body Section -->
+
+    <div id="home" class="parallax">
+      <div>
+        <h1>Project 51uG</h1>
+        <p>An interactive dystopian parasite developed to increase worker output</p>
+      </div>
+    </div>
+
+    <main>
+      <div id="content">
+        <article id="intro" class="card">
+          <h2>Introduction</h2>
+          <img src="assets/Images/Intro.jpeg" class="featured-image-left" alt="Introduction" />
+          <p>
+            The latest generation of the 51uG, commonly known as Slugula, maximizes Employee Output Regulation. 51uG helps to motivate and reward
+            workers who work hard through genetically enhanced soothing vibrations. If the 51uG finds a worker not achieving their maximum potential,
+            specialized motivating high frequencies are emitted to help the worker achieve their targets. (We are not liable for the deaths of any
+            workers in the case of a 51uG being anywhere near a deceased. Usage of the 51uG is compulsory; failure to adopt one will induce a $3000
+            fine. If caught in an attempt to silence the 51uG, suitable punishment will ensue for the heinous citizen).
+          </p>
+        </article>
+
+        <article id="work" class="card">
+          <h2>How does it work?</h2>
+          <img src="assets/Images/how_does_it_work.jpeg" class="featured-image-right" alt="How it works" />
+          <p>
+            The 51uG has four ways of detecting an input: LDRs, an accelerometer, a pressure sensor, and buttons. To output information to a user, the
+            51uG uses a piezo speaker, LEDs, and a vibration motor. Some of the input devices & all of the output devices are hidden within the slug's
+            silicone molded skin. The LDR and buttons, however, protrude from the skin. To bring the creature's imagined traits to life, the user
+            needs to pick up the slug to initiate it, and then hide the LDRs from light, whilst constantly moving the slug to keep it from emitting an
+            annoying screech. When "comfortable", the slug would give off a soothing sound. To silence/kill the slug, you need to squeeze the slug,
+            while holding both of the buttons underneath it for a set amount of time.
+          </p>
+        </article>
+
+        <article id="instrument" class="card">
+          <section>
+            <h2>About the instruments</h2>
+            <div class="row">
+              <div class="card">
+                <h3>Daisy seed microcontroller</h3>
+                <img src="assets/Images/daisy_seed.jpg" class="featured-image" alt="How it works" />
+                <p>A powerful microcontroller for synthesis programmed through C++, Arduino, Pure data and Max MSP</p>
+              </div>
+
+              <div class="card">
+                <h3>Light sensor</h3>
+                <img src="assets/Images/idk_icon.jpg" class="featured-image" alt="How it works" />
+                <p>A light sensor detects light in its proximity</p>
+              </div>
+
+              <div class="card">
+                <h3>Gyroscope/Accelerometer</h3>
+                <img src="assets/Images/Gyroscope_Accelerometer.jpg" class="featured-image" alt="How it works" />
+                <p>A gyroscope/accelerometer is a device used for measuring or maintaining orientation and angular velocity</p>
+              </div>
+
+              <div class="card">
+                <h3>Velostat</h3>
+                <img src="assets/Images/idk_icon.jpg" class="featured-image" alt="How it works" />
+                <p>
+                  Velostat is a conductive material. It's pressure-sensitive and can be used as a pressure or bend sensor. Squeezing it will reduce
+                  the resistance.
+                </p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+      <!-- additional info Section -->
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>My profile</h2>
+            <figure>
+              <img src="assets/images/mypic.jpg" alt="Christofer Alexander" />
+            </figure>
+          </header>
+          <section class="info_tambah">
+            <h3>Additional Information</h3>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Christofer Alexander Kumentas</td>
+              </tr>
+              <tr>
+                <th>Tanggal Lahir</th>
+                <td>15 Maret 2001</td>
+              </tr>
+            </table>
+            <div class="icon">
+              <a href="https://www.instagram.com/christo_alx/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/christofer-alexander-300831225/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/Chris503g" target="_blank" rel="noopener"><i class="fa fa-github"></i></a>
+            </div>
+          </section>
+        </article>
+      </aside>
+    </main>
+    <!-- Footer Section -->
+
+    <footer>
+      <p>Belajar Dasar Pemrograman Web &copy; 2022, Christofer Alexander Kumentas</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
